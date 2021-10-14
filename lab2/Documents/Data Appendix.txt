@@ -1,0 +1,15 @@
+This file contains information about result file that can be produced by the code in notebook.
+This result file is stored in Analysis Data Catalog (tidy_weather.xlsx).
+It contains dataframe with multiple rows. In every row one observation is stored.
+In columns following variables are present:
+-> year - year of the observation
+-> month - month of the observation
+-> day - day of the observation
+-> kind - kind of the observation - one of tmax, tmin, prcp
+-> value - value of the observation
+
+Tmax stands for maximum temperature in a given day in Celsius.
+Tmin stands for minmum temperature in a given day in Celsius.
+Prcp measures number of rain given day in inches.
+
+Rows (obsevations) are stored chronologically. Only data in the first month of 2010 are taken into account. Days with no data or were prcp was 0 are not shown.
